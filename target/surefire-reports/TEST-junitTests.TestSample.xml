@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="0" name="junitTests.TestSample" time="7.664" errors="1" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\bin"/>
+    <property name="java.vm.version" value="25.152-b16"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Divya\workspace\TestSerenity"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Divya\workspace\TestSerenity"/>
+    <property name="java.runtime.version" value="1.8.0_152-b16"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_152\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\EQUIFA~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\Divya\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3519279925330400952.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_152\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jre1.8.0_152/bin/server;C:/Program Files/Java/jre1.8.0_152/bin;C:/Program Files/Java/jre1.8.0_152/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk1.8.0_152\bin;C:\Users\equifaxmind\eclipse\jee-oxygen\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\equifaxmind"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="equifaxmind"/>
+    <property name="java.class.path" value="C:\Users\equifaxmind\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.8.2.20171007-0216\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_152\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean verify serenity:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_152"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_152\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_152\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Divya\workspace\TestSerenity\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="junitTests.TestSample" name="Test" time="2.786"/>
+  <testcase classname="org.apache.maven.surefire.junit4.JUnit4Provider" name="junitTests.TestSample" time="4.878">
+    <error message="Failed to generate configuration report" type="net.thucydides.core.reports.ReportGenerationFailedError">net.thucydides.core.reports.ReportGenerationFailedError: Failed to generate configuration report
+	at net.thucydides.core.reports.ReportService.waitForReportGenerationToFinish(ReportService.java:203)
+	at net.thucydides.core.reports.ReportService.generateReportsFor(ReportService.java:180)
+	at net.thucydides.core.reports.ReportService.generateReportsFor(ReportService.java:127)
+	at net.serenitybdd.junit.runners.SerenityRunner.generateReportsFor(SerenityRunner.java:400)
+	at net.serenitybdd.junit.runners.SerenityRunner.generateReports(SerenityRunner.java:295)
+	at net.serenitybdd.junit.runners.SerenityRunner.run(SerenityRunner.java:248)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.util.concurrent.ExecutionException: net.thucydides.core.reports.ReportGenerationFailedError: Failed to generate reports using net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@bbf9e07
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at net.thucydides.core.reports.ReportService.waitForReportGenerationToFinish(ReportService.java:200)
+	... 17 more
+Caused by: net.thucydides.core.reports.ReportGenerationFailedError: Failed to generate reports using net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@bbf9e07
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:240)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: net.thucydides.core.resources.ResourceCopyingError: Couldn&apos;t close the zip file C:\Users\equifaxmind\.m2\repository\org\jruby\jruby-complete\1.7.26\jruby-complete-1.7.26.jar
+	at net.thucydides.core.resources.ResourceList.getResourcesFromJarFile(ResourceList.java:151)
+	at net.thucydides.core.resources.ResourceList.getResources(ResourceList.java:89)
+	at net.thucydides.core.resources.ResourceList.systemPropertiesClasspathElements(ResourceList.java:79)
+	at net.thucydides.core.resources.ResourceList.list(ResourceList.java:51)
+	at net.thucydides.core.reports.html.HtmlResourceCopier.to(HtmlResourceCopier.java:41)
+	at net.thucydides.core.reports.html.HtmlReporter.copyResourcesToOutputDirectory(HtmlReporter.java:74)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:122)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:238)
+	... 6 more
+Caused by: java.util.zip.ZipException: invalid CEN header (bad signature)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.&lt;init&gt;(ZipFile.java:225)
+	at java.util.zip.ZipFile.&lt;init&gt;(ZipFile.java:155)
+	at java.util.zip.ZipFile.&lt;init&gt;(ZipFile.java:169)
+	at net.thucydides.core.resources.ResourceList.loadZipFileWithMaxRetries(ResourceList.java:117)
+	at net.thucydides.core.resources.ResourceList.loadZipFileWithMaxRetries(ResourceList.java:127)
+	at net.thucydides.core.resources.ResourceList.loadZipFileWithMaxRetries(ResourceList.java:127)
+	at net.thucydides.core.resources.ResourceList.loadZipFileWithMaxRetries(ResourceList.java:127)
+	at net.thucydides.core.resources.ResourceList.zipFileFor(ResourceList.java:112)
+	at net.thucydides.core.resources.ResourceList.getResourcesFromJarFile(ResourceList.java:135)
+	... 13 more
+Caused by: java.util.concurrent.ExecutionException: net.thucydides.core.reports.ReportGenerationFailedError: Failed to generate reports using net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@bbf9e07
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at net.thucydides.core.reports.ReportService.waitForReportGenerationToFinish(ReportService.java:200)
+	... 17 more
+Caused by: net.thucydides.core.reports.ReportGenerationFailedError: Failed to generate reports using net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@bbf9e07
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:240)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:175)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: net.thucydides.core.resources.ResourceCopyingError: Couldn&apos;t close the zip file C:\Users\equifaxmind\.m2\repository\org\jruby\jruby-complete\1.7.26\jruby-complete-1.7.26.jar
+	at net.thucydides.core.resources.ResourceList.getResourcesFromJarFile(ResourceList.java:151)
+	at net.thucydides.core.resources.ResourceList.getResources(ResourceList.java:89)
+	at net.thucydides.core.resources.ResourceList.systemPropertiesClasspathElements(ResourceList.java:79)
+	at net.thucydides.core.resources.ResourceList.list(ResourceList.java:51)
+	at net.thucydides.core.reports.html.HtmlResourceCopier.to(HtmlResourceCopier.java:41)
+	at net.thucydides.core.reports.html.HtmlReporter.copyResourcesToOutputDirectory(HtmlReporter.java:74)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:122)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:238)
+	... 6 more
+Caused by: java.util.zip.ZipException: invalid CEN header (bad signature)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.&lt;init&gt;(ZipFile.java:225)
+	at java.util.zip.ZipFile.&lt;init&gt;(ZipFile.java:155)
+	at java.util.zip.ZipFile.&lt;init&gt;(ZipFile.java:169)
+	at net.thucydides.core.resources.ResourceList.loadZipFileWithMaxRetries(ResourceList.java:117)
+	at net.thucydides.core.resources.ResourceList.loadZipFileWithMaxRetries(ResourceList.java:127)
+	at net.thucydides.core.resources.ResourceList.loadZipFileWithMaxRetries(ResourceList.java:127)
+	at net.thucydides.core.resources.ResourceList.loadZipFileWithMaxRetries(ResourceList.java:127)
+	at net.thucydides.core.resources.ResourceList.zipFileFor(ResourceList.java:112)
+	at net.thucydides.core.resources.ResourceList.getResourcesFromJarFile(ResourceList.java:135)
+	... 13 more
+</error>
+  </testcase>
+</testsuite>
